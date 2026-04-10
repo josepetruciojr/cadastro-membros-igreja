@@ -2,17 +2,16 @@ package br.com.josepetruciodev.cadastro_membros_igreja.model;
 
 import lombok.*;
 
-import java.util.Date;
-
 @Getter
 @Setter
 @ToString
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario {
+public class UsuarioEntity {
 
+    private Integer id;
     private String nome;
-    private String endereco;
-    private Date dataNascimento;
+    private String email;
+    private String telefone;
 }
