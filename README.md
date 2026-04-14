@@ -1,9 +1,42 @@
-# Projeto pessoal em Desenvolvimento
+#  Cadastro de Membros - Igreja
 
-O projeto é para modernizar o cadastro de dados pessoais dos membros da igreja, viabilizar e dispor de forma ágil e robusta.
+Projeto desenvolvido para realizar o cadastro e gerenciamento de membros de igreja.
 
-O projeto está sendo implementado aos poucos conforme avanço nos estudos, mas já visando tratar um dor real e ganhar mais experiência no desenvolvimento.
+## Funcionalidades
 
-1- O projeto está na sua forma inicial, implementando um CRUD armazenando os dados em memória utilizando ArrayList.
+- Cadastrar membros
+- Listar membros
+- Buscar por ID (falta implementar)
+- Atualizar dados
+- Excluir membros
 
-Próximo passo é implementar o banco de dados.
+## Tecnologias e ferramentas
+
+- Java
+- Spring Boot
+- Maven
+- OpenAPI/Swagger
+
+## Como executar
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/josepetruciojr/cadastro-membros-igreja.git
+
+
+```bash
+cd cadastro-membros-igreja
+
+
+```bash
+mvn spring-boot:run
+
+
+##  Próximos passos
+
+- Integração com banco de dados relacional (PostgreSQL/MySQL).
+- Implementação da persistência com Spring Data JPA.
+- Criação de validações para entrada de dados.
+- Tratamento global de exceções.
+- Em etapas futuras de estudo, implementação de autenticação e autorização com Spring Security.
