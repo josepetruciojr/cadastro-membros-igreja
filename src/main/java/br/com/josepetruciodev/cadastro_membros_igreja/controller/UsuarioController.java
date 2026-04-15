@@ -29,6 +29,12 @@ public class UsuarioController {
         return usuarioService.mostrarUsuarios();
     }
 
+    @GetMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public UsuarioEntity buscarUsuario(@PathVariable Integer id){
+        return usuarioService.buscarUsuario(id);
+    }
+
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deletarUsuario(@PathVariable Integer id) {

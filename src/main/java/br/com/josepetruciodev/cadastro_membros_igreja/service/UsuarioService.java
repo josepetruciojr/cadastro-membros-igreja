@@ -31,6 +31,10 @@ public class UsuarioService {
         usuarios.removeIf(u -> u.getId().equals(id));
     }
 
+    public UsuarioEntity buscarUsuario(Integer id){
+        return usuarios.stream().filter(u -> u.getId().equals(id)).findFirst().orElse(null);
+    }
+
     public UsuarioEntity atualizarUsuario(UsuarioEntity usuario, Integer id){
         UsuarioEntity user = usuarios.stream().filter(u -> u.getId().equals(id)).findFirst().orElse(null);
 
