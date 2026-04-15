@@ -6,7 +6,7 @@ Projeto desenvolvido para realizar o cadastro e gerenciamento de membros de igre
 
 - Cadastrar membros
 - Listar membros
-- Buscar por ID (falta implementar)
+- Buscar por ID
 - Atualizar dados
 - Excluir membros
 
