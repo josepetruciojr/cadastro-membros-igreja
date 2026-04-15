@@ -25,13 +25,11 @@ Clone o projeto:
 git clone https://github.com/josepetruciojr/cadastro-membros-igreja.git
 
 
-```bash
 cd cadastro-membros-igreja
 
 
-```bash
 mvn spring-boot:run
-
+```
 
 ##  Próximos passos
 
