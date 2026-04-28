@@ -17,20 +17,6 @@ Projeto desenvolvido para realizar o cadastro e gerenciamento de membros de igre
 - Maven
 - OpenAPI/Swagger
 
-## Como executar
-
-Clone o projeto:
-
-```bash
-git clone https://github.com/josepetruciojr/cadastro-membros-igreja.git
-
-
-cd cadastro-membros-igreja
-
-
-mvn spring-boot:run
-```
-
 ##  Próximos passos
 
 - Integração com banco de dados relacional (PostgreSQL/MySQL).
